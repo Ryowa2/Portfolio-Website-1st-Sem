@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    background-image: url("../img/background.jpg");
+    background-image: url("img/background.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -147,27 +147,27 @@ body {
 }
 
 .int-1 {
-    background-image: url(../img/gaming.png);
+    background-image: url(img/gaming.png);
 }
 
 .int-2 {
-    background-image: url(../img/editing.png);
+    background-image: url(img/editing.png);
 }
 
 .int-3 {
-    background-image: url(../img/watching.png);
+    background-image: url(img/watching.png);
 }
 
 .int-4 {
-    background-image: url(../img/computer.png);
+    background-image: url(img/computer.png);
 }
 
 .int-5 {
-    background-image: url(../img/programming.png);
+    background-image: url(img/programming.png);
 }
 
 .int-6 {
-    background-image: url(../img/nature.png);
+    background-image: url(img/nature.png);
 }
 
 .container:hover {
