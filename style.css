@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: #070910;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffff;
+    color: #000;
+    transition: 1s;
+}
+
+.header {
+    background-image: url("../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 685px;
+    display: grid;
+    padding: 100px 50px;
+}
+
+.overlay{
+    place-self: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #ffff;
+    padding: 80px;  
+    width: 80%;
+}
+
+.about {
+    padding: 100px;
+    background-color: #191717;
+    color: #ffff;
+}
+
+.content {
+    padding: 50px 50px 50px 0px;
+    width: 50%;
+    min-height: 70vh;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+}
+
+.about-image {
+    width: 200%;
+}
+
+.about-image img {
+    float: right;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gallery {
+    padding: 100px 50px;
+    height: 100%;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),url('../img/gallery-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.photo {
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.photo img {
+    border-radius: 2px 20px;
+    width: 90%;
+    height: 400px;
+    object-fit:inherit;
+    object-position: top;
+    border: 2px solid #000;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.image {
+    padding: 6px 6px 0px 35px;
+    display: inline-grid;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.background {
+    padding-top: 100px;
+    background-color: #191717;
+    background-size: cover;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    background: #cbe2ce;
+    width: 350px;
+    height: 500px;
+    margin: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.interest {
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.int-1 {
+    background-image: url(../img/gaming.png);
+}
+
+.int-2 {
+    background-image: url(../img/editing.png);
+}
+
+.int-3 {
+    background-image: url(../img/watching.png);
+}
+
+.int-4 {
+    background-image: url(../img/computer.png);
+}
+
+.int-5 {
+    background-image: url(../img/programming.png);
+}
+
+.int-6 {
+    background-image: url(../img/nature.png);
+}
+
+.container:hover {
+    background-color:  rgb(10, 10, 10);
+    color: #fff;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
